@@ -1,0 +1,19 @@
+el-button-group：
+几乎也是个空壳子，只是用来把buttons组织起来，
+不过css方面可能有意义，不如边缘圆角。
+
+--------------------------------
+el-button:
+这里关于inject的说明见[这里](https://github.com/zsusyt/blog/issues/18)，以后不再说明。
+只是基于原生button的一个简单封装，加多两个icon来显示loading或者其他符号，另外还通过
+slot可以自定义文字。
+基本DOM结构是这样的：
+```html
+<button>
+  <i>loading符号</i>
+  <i>其他符号</i>
+  <span>自定义文字</span>
+</button>
+```
+但其实loading这块在视觉上是有问题的，就是按钮会随着出现loading突然变宽，loading消失又变窄，
+不是一个好的设计（如何改进？todo）

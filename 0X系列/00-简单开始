@@ -1,0 +1,33 @@
+package.json里面的内容很多，script里面的内容也很多，一时半会儿也不好理出头绪（主要我对这种套路还不是很熟），我们就从build/webpack.conf.js中找入口文件吧：./src/index.js。
+
+这个index.js中import了很多component，这些也是我们后面将要分析的对象。其中有个熟悉的东西大家肯定都见过：install函数，这也是vuejs使用插件的一般姿势了。
+locale这种东西一看就是跟国际化有关的东西，应该不算核心内容，先不管。
+```js
+const install = function(Vue, opts = {}) {
+  locale.use(opts.locale);
+  locale.i18n(opts.i18n);
+  //全局注册引入的各个component，如果是你单独引入的，大概也是这种方式，就是要看自己需要哪个就 
+  //定义哪个了。
+  components.map(component => {
+    Vue.component(component.name, component);
+  });
+  //这里可以看看Loading相关的代码，很短，注册了指令已经挂载到原型链上，貌似跟后面的重复了。
+  Vue.use(Loading.directive);
+  //这里提供了一个途径可以定义组件的大小，和zindex，但是熟悉zindex的同学都知道这里面坑很大，具体
+  //可以参看张鑫旭的一些文章和他的书，所以我估计后面很多bug跟这个相关（todo？）。
+  Vue.prototype.$ELEMENT = {
+    size: opts.size || '',
+    zIndex: opts.zIndex || 2000
+  };
+  // 在原型链上挂载这几个东西，方便调用（todo：其实我现在对这几个东西还不是特别了解）
+  Vue.prototype.$loading = Loading.service;
+  Vue.prototype.$msgbox = MessageBox;
+  Vue.prototype.$alert = MessageBox.alert;
+  Vue.prototype.$confirm = MessageBox.confirm;
+  Vue.prototype.$prompt = MessageBox.prompt;
+  Vue.prototype.$notify = Notification;
+  Vue.prototype.$message = Message;
+
+};
+```
+那么install之后，也就可以在你的程序中使用各种组件了。
