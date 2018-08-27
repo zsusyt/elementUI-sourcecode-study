@@ -37,7 +37,7 @@ export default {
 * dispatch
 * broadcast
 
-因为mixin到组建内部了，所以这里面的this都指的是vm 。
+因为mixin到组件内部了，所以这里面的this都指的是vm 。  
 先看dispatch：
 while内部代码的意图是，找到一个父组件，他的componentName是我们指定的name，
 如果可以找到这个组件，就在这个组件上$emit一个指定事件；
