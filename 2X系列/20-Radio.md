@@ -30,8 +30,24 @@ model: {
     }
 },
 ```
-如果处于ElRadioGroup中，set的时候是要先dispatch消息的，而消息是个异步过程，
-所以猜想使用nextTick是为了兼容这种情况，可以使用ElRadioGroup和不使用Group试试是否结果一样(?todo)。
+我们想想这个过程：如果是radioGroup的情况，必然是各种消息，各种异步，肯定是不会马上拿到点击的这个radio的值的；
+那么如果不在radioGroup中，而只是几个radio呢？这样仍然是通过异步来更新值的，因为v-model本身只是语法糖：
+> 自定义事件也可以用于创建支持 v-model 的自定义输入组件。记住：
+> 
+>```js
+> <input v-model="searchText">
+>```
+> 等价于：
+> ```js
+> <input
+>   v-bind:value="searchText"
+>   v-on:input="searchText = $event.target.value"
+> >
+>```
+点击radio之后，先发一个消息：this.$emit('input', val);
+这个消息发出去之后，父组件响应这个消息之前，再发这个消息的时候：this.$emit('change', this.model);
+this.model还是老的值，所以就需要nextTick来加入队列，等上述异步流程执行完，再取this.model，就可以
+拿到真正想要的值了。
 
 ---
 radioGroup也mixin了Emitter，所以他也可以向上或者向下发送消息。  
