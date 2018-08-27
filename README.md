@@ -4,26 +4,29 @@
 补充：这个系列并不牵涉css相关的代码，只分析vuejs相关的代码。
 version: 2.4.6
 
-一些约定：
-0X系列：一些公共的东西，比如utils或者混入的代码，不跟具体哪个组件强绑定
-1X系类：Basic
-2X系列：Form
-3X系列：Data
-4X系列：Notice
-5X系列：Navigation
-6X系列：Others
-
 补充：
 [掘金上一个网易的妹子写的分析更详细一点，并且也分析了相关的sass代码，可以参考。](https://juejin.im/post/5b741fad6fb9a0098474bbb0)
 
 
 ---目录的分割线
 
-0X系列
-* [00-简单开始]()
-* [01-provide&inject]()
+0X系列-一些公共的东西，比如utils或者混入的代码，不跟具体哪个组件强绑定
+* [00-简单开始](https://github.com/zsusyt/elementUI-sourcecode-study/blob/master/0X%E7%B3%BB%E5%88%97/00-%E7%AE%80%E5%8D%95%E5%BC%80%E5%A7%8B.md)
+* [01-provide&inject](https://github.com/zsusyt/elementUI-sourcecode-study/blob/master/0X%E7%B3%BB%E5%88%97/01-provide%26inject.md)
+* [02-Emitter]()
 
-1X系类
-* [10-Layout]()
-* [11-Container&Icon]()
-* [12-Button]()
+1X系列-Basic
+* [10-Layout](https://github.com/zsusyt/elementUI-sourcecode-study/blob/master/1X%E7%B3%BB%E5%88%97/10-Layout.md)
+* [11-Container&Icon](https://github.com/zsusyt/elementUI-sourcecode-study/blob/master/1X%E7%B3%BB%E5%88%97/11-Container%26Icon.md)
+* [12-Button](https://github.com/zsusyt/elementUI-sourcecode-study/blob/master/1X%E7%B3%BB%E5%88%97/12-Button.md)
+
+2X系列-Form
+* [20-Radio]()
+
+3X系列-Data
+
+4X系列-Notice
+
+5X系列-Navigation
+
+6X系列-Others
