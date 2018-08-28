@@ -14,6 +14,7 @@ version: 2.4.6
 * [00-简单开始](https://github.com/zsusyt/elementUI-sourcecode-study/blob/master/0X%E7%B3%BB%E5%88%97/00-%E7%AE%80%E5%8D%95%E5%BC%80%E5%A7%8B.md)
 * [01-provide&inject](https://github.com/zsusyt/elementUI-sourcecode-study/blob/master/0X%E7%B3%BB%E5%88%97/01-provide%26inject.md)
 * [02-Emitter](https://github.com/zsusyt/elementUI-sourcecode-study/blob/master/0X%E7%B3%BB%E5%88%97/02-Emitter.md)
+* [03-calcTextareaHeight](https://github.com/zsusyt/elementUI-sourcecode-study/blob/master/0X%E7%B3%BB%E5%88%97/03-calcTextareaHeight.md)
 
 1X系列-Basic
 * [10-Layout](https://github.com/zsusyt/elementUI-sourcecode-study/blob/master/1X%E7%B3%BB%E5%88%97/10-Layout.md)
