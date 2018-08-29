@@ -32,7 +32,7 @@ handleComposition(event) {
 ---
 autocomplete组件是个很有意思的组件，他基本上跟一个普通input差不多，但是点击后会有一个提示菜单，
 这一切都从这个地方看起：
-autocomplete.vue:
+autocomplete.vue，主要就是靠this.activated串起来整个流程：
 ```js
 @focus="handleFocus"
 
