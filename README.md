@@ -15,6 +15,7 @@ version: 2.4.6
 * [01-provide&inject](https://github.com/zsusyt/elementUI-sourcecode-study/blob/master/0X%E7%B3%BB%E5%88%97/01-provide%26inject.md)
 * [02-Emitter](https://github.com/zsusyt/elementUI-sourcecode-study/blob/master/0X%E7%B3%BB%E5%88%97/02-Emitter.md)
 * [03-calcTextareaHeight](https://github.com/zsusyt/elementUI-sourcecode-study/blob/master/0X%E7%B3%BB%E5%88%97/03-calcTextareaHeight.md)
+* [04-debounce]()
 
 1X系列-Basic
 * [10-Layout](https://github.com/zsusyt/elementUI-sourcecode-study/blob/master/1X%E7%B3%BB%E5%88%97/10-Layout.md)
@@ -23,6 +24,8 @@ version: 2.4.6
 
 2X系列-Form
 * [20-Radio](https://github.com/zsusyt/elementUI-sourcecode-study/blob/master/2X%E7%B3%BB%E5%88%97/20-Radio.md)
+* [21-Checkbox]()
+* [22-Input]()
 
 3X系列-Data
 
