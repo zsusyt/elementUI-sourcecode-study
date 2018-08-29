@@ -31,7 +31,7 @@ version: 2.4.6
 * 23-InputNumber-todo
 * 24-Select-todo
 * 25-Cascader-todo
-* 26-Switch-todo
+* [26-Switch]()
 * 27-Slider-todo
 * 28-TimePicker-todo
 * 29-DatePicker-todo
