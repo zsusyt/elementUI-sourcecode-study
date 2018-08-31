@@ -43,7 +43,7 @@ version: 2.4.6
 
 3X系列-Data
 * 31-Table-todo
-* [32-Tag]()
+* [32-Tag](https://github.com/zsusyt/elementUI-sourcecode-study/blob/master/3X%E7%B3%BB%E5%88%97/32-Tag.md)
 * 33-Progress-todo
 * 34-Tree-todo
 * 35-Pagination-todo
