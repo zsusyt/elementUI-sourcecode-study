@@ -23,7 +23,7 @@ let triggerElm = !splitButton
     </el-button-group>);
 ```
 dropdown有个prop是splitButton，这个prop可以决定外观是一个单独的按钮，还是有个单独的触发按钮。  
-里面nativeOn-click是使用JSX写render函数知识，如果深入学习可以看[这个](https://github.com/vuejs/babel-plugin-transform-vue-jsx#usage)
+里面nativeOn-click是使用JSX写render函数知识，如果深入学习可以看[这个](https://github.com/vuejs/babel-plugin-transform-vue-jsx#usage)和[这个](https://egoist.moe/2017/09/21/vue-jsx-full-guide/)
 
 外部triggerElm通过this.visible这个data的属性与内部dropdownMenu通信：
 ```js

@@ -58,9 +58,9 @@ version: 2.4.6
 
 5X系列-Navigation
 * 51-NavMenu-todo
-* 52-Tabs-todo
-* 53-Breadcrumb-todo
-* [54-Dropdown]()
+* [52-Tabs](https://github.com/zsusyt/elementUI-sourcecode-study/blob/master/5X%E7%B3%BB%E5%88%97/52-Tabs.md)
+* [53-Breadcrumb](https://github.com/zsusyt/elementUI-sourcecode-study/blob/master/5X%E7%B3%BB%E5%88%97/53-Breadcrumb.md)
+* [54-Dropdown](https://github.com/zsusyt/elementUI-sourcecode-study/blob/master/5X%E7%B3%BB%E5%88%97/54-Dropdown.md)
 * 55-Steps-todo
 
 6X系列-Others
