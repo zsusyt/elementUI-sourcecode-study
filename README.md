@@ -26,7 +26,7 @@ version: 2.4.6
 
 2X系列-Form
 * [20-Radio](https://github.com/zsusyt/elementUI-sourcecode-study/blob/master/2X%E7%B3%BB%E5%88%97/20-Radio.md)
-* 21-Checkbox-todo
+* [21-Checkbox-ing](https://github.com/zsusyt/elementUI-sourcecode-study/blob/master/2X%E7%B3%BB%E5%88%97/21-Checkbox.md)
 * [22-Input](https://github.com/zsusyt/elementUI-sourcecode-study/blob/master/2X%E7%B3%BB%E5%88%97/22-Input.md)
 * 23-InputNumber-todo
 * 24-Select-todo
