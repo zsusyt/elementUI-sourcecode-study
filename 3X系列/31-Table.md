@@ -1,0 +1,23 @@
+DOM结构： 
+```jsx
+<el-table>
+    <header></header>
+    <body></body>
+    <footer></footer>
+    <fixedColumn>
+        <header></header>
+        <body></body>
+        <footer></footer>
+    </fixedColumn>
+    <rightFixedColumn>
+        <header></header>
+        <body></body>
+        <footer></footer>
+    </rightFixedColumn>
+    <rightFixedPatch>
+    </rightFixedPatch>
+    <resizeProxy>
+    </resizeProxy>
+</el-table>
+```
+从结构看还是比较复杂的，分成了好几个部分。 

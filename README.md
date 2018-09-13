@@ -26,7 +26,7 @@ version: 2.4.6
 
 2X系列-Form
 * [20-Radio](https://github.com/zsusyt/elementUI-sourcecode-study/blob/master/2X%E7%B3%BB%E5%88%97/20-Radio.md)
-* [21-Checkbox-ing](https://github.com/zsusyt/elementUI-sourcecode-study/blob/master/2X%E7%B3%BB%E5%88%97/21-Checkbox.md)
+* [21-Checkbox](https://github.com/zsusyt/elementUI-sourcecode-study/blob/master/2X%E7%B3%BB%E5%88%97/21-Checkbox.md)
 * [22-Input](https://github.com/zsusyt/elementUI-sourcecode-study/blob/master/2X%E7%B3%BB%E5%88%97/22-Input.md)
 * 23-InputNumber-todo
 * 24-Select-todo
@@ -42,7 +42,9 @@ version: 2.4.6
 * 214-Form-todo
 
 3X系列-Data
-* 31-Table-todo
+* [31-Table-ing](https://github.com/zsusyt/elementUI-sourcecode-study/blob/master/3X%E7%B3%BB%E5%88%97/31-Table.md)
+* [311-TableStore](https://github.com/zsusyt/elementUI-sourcecode-study/blob/master/3X%E7%B3%BB%E5%88%97/311-TableStore.md)
+* [312-TableLayer](https://github.com/zsusyt/elementUI-sourcecode-study/blob/master/3X%E7%B3%BB%E5%88%97/312-TableLayer.md)
 * [32-Tag](https://github.com/zsusyt/elementUI-sourcecode-study/blob/master/3X%E7%B3%BB%E5%88%97/32-Tag.md)
 * 33-Progress-todo
 * 34-Tree-todo
