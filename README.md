@@ -9,6 +9,8 @@ version: 2.4.6
 
 
 ---目录的分割线
+指令系列
+* [01-RepeatClick]()
 
 0X系列-一些公共的东西，比如utils或者混入的代码，不跟具体哪个组件强绑定
 * [00-简单开始](https://github.com/zsusyt/elementUI-sourcecode-study/blob/master/0X%E7%B3%BB%E5%88%97/00-%E7%AE%80%E5%8D%95%E5%BC%80%E5%A7%8B.md)
@@ -28,9 +30,9 @@ version: 2.4.6
 * [20-Radio](https://github.com/zsusyt/elementUI-sourcecode-study/blob/master/2X%E7%B3%BB%E5%88%97/20-Radio.md)
 * [21-Checkbox](https://github.com/zsusyt/elementUI-sourcecode-study/blob/master/2X%E7%B3%BB%E5%88%97/21-Checkbox.md)
 * [22-Input](https://github.com/zsusyt/elementUI-sourcecode-study/blob/master/2X%E7%B3%BB%E5%88%97/22-Input.md)
-* 23-InputNumber-todo
-* 24-Select-todo
-* 25-Cascader-todo
+* [23-InputNumber](https://github.com/zsusyt/elementUI-sourcecode-study/blob/master/2X%E7%B3%BB%E5%88%97/23-InputNumber.md)
+* [24-Select](https://github.com/zsusyt/elementUI-sourcecode-study/blob/master/2X%E7%B3%BB%E5%88%97/24-Select.md)
+* [25-Cascader](https://github.com/zsusyt/elementUI-sourcecode-study/blob/master/2X%E7%B3%BB%E5%88%97/25-Cascader.md)
 * [26-Switch](https://github.com/zsusyt/elementUI-sourcecode-study/blob/master/2X%E7%B3%BB%E5%88%97/26-Switch.md)
 * 27-Slider-todo
 * 28-TimePicker-todo
