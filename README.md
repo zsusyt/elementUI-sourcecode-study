@@ -76,3 +76,6 @@ version: 2.4.6
 * 64-Card-todo
 * 65-Carousel-todo
 * 66-Collapse-todo
+
+7X系列-周边
+* 71-async-validator
