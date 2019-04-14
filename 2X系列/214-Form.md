@@ -220,7 +220,7 @@ if (rules.length || this.required !== undefined) {
 }
 ```
 item为什么还要响应消息？难道item也是容器？
-是的，item本身也是容器，真正的控件比如button、input、select、checkbox都是放在item里面的。而这些控件如果再要与上层交互的话，就要借助item了，所以item还要响应消息。说到这里让我想起在项目中封装了一个机遇el-select的组件，但是验证的时候会有问题，现在想想应该是中间消息通讯断了，里面包装的原生elementUI组件发的el.form.blur和el.form.change事件没有继续往上传导致的，所以以后要封装基于elementUI的组件需要考虑这些事情。
+是的，item本身也是容器，真正的控件比如button、input、select、checkbox都是放在item里面的。而这些控件如果再要与上层交互的话，就要借助item了，所以item还要响应消息。说到这里让我想起在项目中封装了一个基于el-select的组件，但是验证的时候会有问题，现在想想应该是中间消息通讯断了，里面包装的原生elementUI组件发的el.form.blur和el.form.change事件没有继续往上传导致的，所以以后要封装基于elementUI的组件需要考虑这些事情。
 
 我们看看这些事件的响应函数：
 ```js
